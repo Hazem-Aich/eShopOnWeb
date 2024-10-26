@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Buid') {
+    stage('Build') {
       steps {
-        sh 'dotnet buid eShopOnWeb.sln'
+        sh 'dotnet build eShopOnWeb.sln'
       }
     }
 
